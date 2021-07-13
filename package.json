@@ -1,0 +1,37 @@
+{
+  "name": "chat-code",
+  "version": "1.0.0",
+  "description": "A chat that can parse markdown and can display code",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start":"nodemon . "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muffle10/chat-code.git"
+  },
+  "keywords": [
+    "chat",
+    "code"
+  ],
+  "author": "Muffle10",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Muffle10/chat-code/issues"
+  },
+  "homepage": "https://github.com/Muffle10/chat-code#readme",
+  "dependencies": {
+    "@clerk/clerk-react": "^1.14.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2",
+    "react": "^17.0.2",
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12"
+  }
+}
