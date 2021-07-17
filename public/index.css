@@ -1,0 +1,8 @@
+:root{
+    --light-theme-high:#00ffe1;
+    --light-theme-low:#E0FFFA;
+}
+body{
+    background-color:var(--light-theme-low);
+    color:var(--light-theme-high);
+}
