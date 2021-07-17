@@ -3,5 +3,5 @@
     --light-theme-low:#E0FFFA;
 }
 body{
-    background-color: #00ffe1;
+    background-color:var(--light-theme-low);
 }
