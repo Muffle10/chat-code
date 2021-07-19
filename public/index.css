@@ -4,12 +4,8 @@
 }
 body{
     background-color:lightblue;
+    font-family:'Courier New', Courier, monospace;
 }
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  }
   #nav{
     float:right;
   }

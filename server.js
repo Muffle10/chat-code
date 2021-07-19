@@ -1,5 +1,6 @@
 var express = require("express")
 var app = express()
+var {monitor} = require('monitor-express')
 var http = require("http")
 var server = http.createServer(app)
 var socketio = require('socket.io')
@@ -8,6 +9,7 @@ var dotenv = require('dotenv').config()
 if (dotenv.error){
     console.log(dotenv.error)
 }
+app.use('*', monitor)
 var port = process.env.PORT || 3000
 const path = require('path')
 app.use('/', express.static(path.join(__dirname, 'public')))
