@@ -23,3 +23,9 @@ body{
     color: white;
     cursor:pointer;
 }
+#main{
+  padding:10px;
+  background-color: white;
+  margin: 30px;
+  text-align:center;
+}
